@@ -35,7 +35,7 @@ public class BoardService {
     public void delete(Long id){
         Board board = boardRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("해당 게시물이 없습니다. id =" + id));
-        // 존재하는 글인지 확인하기 위해 조회 후 삭제
+        // 존재하는 게시물인지 확인하기 위해 조회 후 삭제
         boardRepository.delete(board);
     }
 

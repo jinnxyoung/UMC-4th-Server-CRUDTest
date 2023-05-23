@@ -10,7 +10,6 @@ import java.util.Optional;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-
 public class BoardListResponseDto {
     private String title;
     private String content;

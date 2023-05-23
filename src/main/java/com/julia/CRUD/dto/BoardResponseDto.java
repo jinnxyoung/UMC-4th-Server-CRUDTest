@@ -2,6 +2,7 @@ package com.julia.CRUD.dto;
 
 import com.julia.CRUD.domain.Board;
 import lombok.Getter;
+
 @Getter
 public class BoardResponseDto {
     private Long id;

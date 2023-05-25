@@ -1,11 +1,11 @@
-package com.julia.CRUD.service;
+package com.julia.CRUD.board.service;
 
-import com.julia.CRUD.domain.Board;
-import com.julia.CRUD.dto.BoardListResponseDto;
-import com.julia.CRUD.dto.BoardResponseDto;
-import com.julia.CRUD.dto.BoardSaveRequestDto;
-import com.julia.CRUD.dto.BoardUpdateRequestDto;
-import com.julia.CRUD.repository.BoardRepository;
+import com.julia.CRUD.board.domain.Board;
+import com.julia.CRUD.board.dto.BoardListResponseDto;
+import com.julia.CRUD.board.dto.BoardResponseDto;
+import com.julia.CRUD.board.dto.BoardSaveRequestDto;
+import com.julia.CRUD.board.dto.BoardUpdateRequestDto;
+import com.julia.CRUD.board.repository.BoardRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

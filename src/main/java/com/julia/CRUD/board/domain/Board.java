@@ -1,4 +1,4 @@
-package com.julia.CRUD.domain;
+package com.julia.CRUD.board.domain;
 
 import lombok.Builder;
 import lombok.Getter;

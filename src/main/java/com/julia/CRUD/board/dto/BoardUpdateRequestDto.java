@@ -1,4 +1,4 @@
-package com.julia.CRUD.dto;
+package com.julia.CRUD.board.dto;
 
 import lombok.Builder;
 import lombok.Getter;

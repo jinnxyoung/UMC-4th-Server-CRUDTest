@@ -1,6 +1,6 @@
-package com.julia.CRUD.dto;
+package com.julia.CRUD.board.dto;
 
-import com.julia.CRUD.domain.Board;
+import com.julia.CRUD.board.domain.Board;
 import lombok.Getter;
 
 @Getter

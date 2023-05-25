@@ -1,10 +1,10 @@
-package com.julia.CRUD.controller;
+package com.julia.CRUD.board.controller;
 
-import com.julia.CRUD.dto.BoardListResponseDto;
-import com.julia.CRUD.dto.BoardResponseDto;
-import com.julia.CRUD.dto.BoardSaveRequestDto;
-import com.julia.CRUD.dto.BoardUpdateRequestDto;
-import com.julia.CRUD.service.BoardService;
+import com.julia.CRUD.board.dto.BoardListResponseDto;
+import com.julia.CRUD.board.dto.BoardResponseDto;
+import com.julia.CRUD.board.dto.BoardSaveRequestDto;
+import com.julia.CRUD.board.dto.BoardUpdateRequestDto;
+import com.julia.CRUD.board.service.BoardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
